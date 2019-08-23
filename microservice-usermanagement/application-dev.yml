@@ -1,0 +1,12 @@
+server:
+  port: 8081
+ 
+spring:  
+  application:
+    name: UserManagement-MicroService
+    
+talan.security.jwt.secret: otherpeopledontknowit
+endpoints:
+  cors:
+    allowed-origins:
+    - '*'
